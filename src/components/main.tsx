@@ -34,8 +34,7 @@ const Main = () => {
     }
 
     if (v === "=" && !isLastCharacterOperator) {
-      const result = evaluate(calcValue);
-      setCalcValue(result);
+      setCalcValue((prev) => evaluate(prev));
       return;
     }
     setCalcValue((prev) => prev + v);
