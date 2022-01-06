@@ -14,7 +14,7 @@ export const AppDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100 vh;
+  height: 100vh;
   width: 100%;
 `;
 
